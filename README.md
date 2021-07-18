@@ -12,8 +12,8 @@ The dataset contains 100 audio samples each of hover, takeoff, land, move right,
 
 ## Pre processing
 **ImageExtraction**:
-- Data pre processing for *ImageCNN* was done using ImageExtraction.ipynb for extracting Melspectograms and frequency-time graphs.
-- Link to these dataset is given here :
+- Data pre processing for *ImageCNN* was done using ImageExtraction.ipynb for extracting MELspectograms and frequency-time graphs.
+- Link to these dataset is given here [MELspectograms](https://drive.google.com/drive/folders/1aNxL6bQnK7jGjDJi1RlnE4fYp38ysZU8?usp=sharing) and [FTgraphs](https://drive.google.com/drive/folders/1nIKcfA8ayYCwQvZAU6cSUTILzHmNhQ5u?usp=sharing)
 
 **wavCONVERTER**:
 - .ogg files converted to .wav using wavCONVERTER

@@ -6,6 +6,9 @@ from librosa import display
 import os,sys
 import numpy as np
 import pandas as pd
+import sounddevice as sd
+from scipy.io.wavfile import write
+import wavio as wv
 
 names_list  = ['hover', 'land', 'mback', 'mfor', 'takeoff', 'mleft', 'mright']
 
@@ -30,6 +33,21 @@ def test(test_sample_path):
     plt.title(test_sample_path)
     plt.bar(names_list,predictions[0],color=['red', 'blue', 'purple', 'green', 'lavender','black','yellow'], width=0.8)
     plt.show()
+
+# Sampling frequency
+freq = 48000
+# Recording duration
+duration = 3
+
+recording = sd.rec(int(duration * freq), samplerate=freq, channels=1)  
+# Record audio for the given number of seconds
+print("start")
+sd.wait()
+print("audio recorded")
+
+write("recording0.wav", freq, recording)
+# Convert the NumPy array to audio file
+wv.write("res.wav", recording, freq, sampwidth=2)
 
 test_sample_path = 'res.wav'
 test(test_sample_path)

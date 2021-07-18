@@ -1,7 +1,7 @@
 # Audio-controlled-drone
 SOC 2021 project
 
-##Commands
+## Commands
 There were 7 commands that were used namely :
 - Move forward
 - Move backward

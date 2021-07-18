@@ -1,6 +1,15 @@
 # Audio-controlled-drone
 SOC 2021 project
 
+##Commands
+There were 7 commands that were used namely :
+- Move forward
+- Move backward
+- Move left
+- Move right
+- Hover 
+- Land
+- Take-off
 
 ## Training Resources  
 Phase1 and Phase 2 [https://docs.google.com/document/d/1xYF_mvlHutUDEfpOYOyPAaEapZoXT57oUZIEyHeCnN0/edit?usp=sharing](https://docs.google.com/document/d/1xYF_mvlHutUDEfpOYOyPAaEapZoXT57oUZIEyHeCnN0/edit?usp=sharing)  
@@ -38,3 +47,16 @@ For **ImageCNN** Model:
 - Model consists of Conv2D layers, BatchNormalization, Dropout etc. used
 - Training accuracy 100%
 - Testing accuracy kept on fluctuating between 35% to 100%
+
+## User Interface
+
+**input.py**
+- Used for taking audio from user and converting it into.wav for
+
+**test.py**
+- Used to predict results from the trained *MLP* model
+- Result given back to user along with a histogram representing probabilities of various instructions
+
+**combined.py**
+- Result of merging *input.py* and *test.py*
+- Takes audio from user and prints result back to user

@@ -27,7 +27,10 @@ For the **LSTM** Model:
 - Training accuracy is nearly 84% whereas 39% testing accuracy is obtained
 
 For **MLP** Model:
-- Audio data preprocessing done using 
+- Audio data preprocessing done. *wavCONVERTER* used to convert .ogg to .wav
+- Training accuracy of 62.9% and testing accuracy of 42.55%
+- Model has Dense layers, Batchnormalization, Dropout and Activation layers
+- Trained model is used in *combined.py* and *test.py*
 
 For **ImageCNN** Model:
 - Image data pre processing done from *ImageExtraction*

@@ -60,3 +60,7 @@ For **ImageCNN** Model:
 **combined.py**
 - Result of merging *input.py* and *test.py*
 - Takes audio from user and prints result back to user
+
+## Important Observation
+- It was observed that audio recorded through laptop microphone and mobile microphone were different
+- Hence the model might not be the best fit for such dataset

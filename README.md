@@ -1,5 +1,10 @@
 # Audio-controlled-drone
-SOC 2021 project
+![SOC 2021 project](https://octodex.github.com/images/yaktocat.png)
+
+## Description  
+Work would start by getting familiar with Px4, Gazebo, and ROS. Students will prepare the audio dataset consisting of 7 most used commands for controlling the drone, such as “take-off,” “hover,” and “land.” The main task would be to implement the most common and effective CNN architectures for audio classification. The model would be continuously tested using a proper validation set.  
+The project could be extended to one of the problems depending on the pace of the project, 1) Getting high accuracy on multiple Indian accents 2) Giving custom commands to drone ( Move up with Medium speed)
+
 
 ## Commands
 There were 7 commands that were used namely :

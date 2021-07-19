@@ -1,5 +1,5 @@
 # Audio-controlled-drone
-SOC 2021 project
+  
 ![SOC 2021 project](https://github.com/rishav1122/Audio-controlled-drone/blob/main/drone.png)
 
 ## Description  
